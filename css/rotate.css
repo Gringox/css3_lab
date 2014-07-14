@@ -1,0 +1,16 @@
+/* Using rotate */
+
+.principal {
+	animation: rotate 3s; 
+	animation-iteration-count: infinite; 
+	-webkit-animation: rotate 3s; /* Safari & Chrome */
+	-webkit-animation-iteration-count: infinite;
+}
+ 
+@keyframes rotate { 
+	100% { transform: rotate(360deg); } 
+}
+ 
+@-webkit-keyframes rotate { /*Safari & Chrome */
+	100% { -webkit-transform: rotate(360deg); } 
+}

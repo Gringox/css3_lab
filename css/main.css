@@ -1,0 +1,8 @@
+/* MAIN CSS */
+
+.inner-principal { 
+	background-image: url('../assets/images/minions.jpg'); 
+	background-repeat: no-repeat;
+	height: 500px; 
+	width: 500px; 
+} 
